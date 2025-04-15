@@ -12,6 +12,7 @@ interface CardProps {
 
 export function Card({ heading, icon, count, children, isPositive }: CardProps) {
     const [currentCount, setCurrentCount] = useState(isPositive ? count : 0); // Start at count for positive cards
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [prevCount, setPrevCount] = useState(isPositive ? count : 0);
 
     useEffect(() => {
