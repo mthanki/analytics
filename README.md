@@ -1,3 +1,8 @@
+Hi, it was a fun project because animations are always fun.  
+The components are reusable, taking specific props for heading, etc., and also `props.children` so you can write JSX to make them multi-purpose. The coloring and animation for the count happen based on two use cases here. The toast can be extended with more messages provided in the `toastMessage.ts` file.
+
+Although this project only had what I call "autorun animations" (i.e., animations that trigger automatically), there are also animations that respond to user touch, drag, or events such as inputs. For example, creating an action sheet is something I have also worked on.
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
